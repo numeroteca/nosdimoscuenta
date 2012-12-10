@@ -68,14 +68,15 @@ footer, header, hgroup, menu, nav, section {
 ----------------------------------------------- */
 
 body {
-	padding: 0 2em;
+	padding: 2em 2em;
+	font-family: 'Petrona', serif;
 }
 #page {
 	margin: 2em auto;
-	max-width: 1000px;
+	width:600px;
 }
 #branding hgroup {
-	margin: 0 7.6%;
+	margin: 0 0 20px;
 }
 #access div {
 	margin: 0 7.6%;
@@ -94,3 +95,46 @@ body {
 	margin-right: 7.6%;
 	width: 18.8%;
 }
+
+#colophon {padding:5px 0 0 0;
+	border-top:1px solid black;
+	font-size:.8em;
+	width: 200px;}
+
+/* =Basic */
+a {
+	text-decoration:none;
+	color:black;
+}
+
+a:hover {background-color:yellow;}
+
+blockquote {margin-left:50px;}
+
+#main {
+	font-size: 1em;
+	line-height: 1.3em;
+	margin-bottom: 5em;}
+
+.list {}
+.news a {text-decoration:underline}
+.news p {margin:0 0 1em;}
+strong {font-weight:bold;
+	font-size: 1.1em;
+	background-color:yellow;}
+
+#site-title {
+	clear:both !important;
+	font-weight:bold;}
+sup,
+sub {
+	font-size: 10px;
+	height: 0;
+	line-height: 1;
+	position: relative;
+	vertical-align: baseline;
+}
+sup {
+	bottom: 1ex;
+}
+
