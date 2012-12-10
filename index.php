@@ -7,3 +7,5 @@
 			</a>						
 		<?php endwhile; ?>
 	<?php else : ?>
+	<?php endif; ?>
+<?php get_footer(); ?>
